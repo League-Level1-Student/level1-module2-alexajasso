@@ -17,8 +17,24 @@ public class SmurfRunner {
 	Smurf blue = new Smurf ("Smurf");
 	blue.eat();
 	
+	System.out.println (blue.getName());
 	
+	Smurf blue1 = new Smurf ("Papa Smurf");
 	
+	System.out.println (blue1.getName());
+	
+	System.out.println (blue1.getHatColor());
+	
+	System.out.println (blue1.isGirlOrBoy());
+	
+Smurf blue2 = new Smurf ("Smurfette");
+	
+	System.out.println (blue2.getName());
+	
+	System.out.println (blue2.getHatColor());
+	
+	System.out.println (blue2.isGirlOrBoy());
+
 	}
 
 }
